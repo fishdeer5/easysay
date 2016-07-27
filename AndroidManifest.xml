@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="useractivity.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,8 +23,11 @@
             </intent-filter>
         </activity>
         
-        <activity android:name=".FindPassword" ></activity>
-        <activity android:name=".FastRegistActivity"></activity>
+        <activity android:name="useractivity.FindPassword" ></activity>
+        <activity android:name="useractivity.FastRegistActivity"></activity>
+        <activity android:name="useractivity.ProtocolActivity"></activity>
+        <activity android:name="useractivity.HomeActivity"></activity>
+        <activity android:name="useractivity.LoginActivity"></activity>
     </application>
 
 </manifest>

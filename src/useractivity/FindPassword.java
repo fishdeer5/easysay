@@ -1,4 +1,7 @@
-package com.example.easysay;
+package useractivity;
+
+import com.example.easysay.R;
+import com.example.easysay.R.layout;
 
 import android.app.Activity;
 import android.os.Bundle;
